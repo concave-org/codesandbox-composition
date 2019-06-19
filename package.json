@@ -1,0 +1,18 @@
+{
+  "name": "composition",
+  "version": "1.0.0",
+  "description": "Composition in concave.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@concave/concave": "1.6.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3",
+    "standard": "^12.0.1"
+  },
+  "keywords": []
+}
