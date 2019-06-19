@@ -30,6 +30,7 @@ const render = (state, props) => ({
       onclick: (event, dispatch) => {
         if (props.next !== '') {
           props.items.push(props.next)
+          props.next = ''
           dispatch({ type: actions.rerender })
         }
       }
