@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@concave/concave": "1.7.0"
+    "@concave/concave": "1.7.1"
   },
   "devDependencies": {
     "parcel-bundler": "1.12.3",
